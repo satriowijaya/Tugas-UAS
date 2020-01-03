@@ -1,0 +1,150 @@
+* {margin: 0; padding: 0;}
+body {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    width: 900px;
+    height: 250px;
+
+}
+header img {
+    width: 900px;
+    height: 300px;
+}
+menu {
+    width: 880px;
+    height: 30px;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 1px;
+}
+menu li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+}
+menu li a {
+    text-decoration: none;
+    color: white;
+}
+menu li a:hover {
+    color: red;
+}
+.dropdown:hover .isi-dropdown {
+    display: block;
+}   
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    background-color: green;
+    width: 40px;
+    height: 26px;
+}   
+.isi-dropdown a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.recomended {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.recomended h1 {
+    text-align: center;
+}
+.recomended .recomendedkiri {
+    width: 435px;
+    float: left;
+    margin: 5px 5px 5px 10px;
+}
+.recomended img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.recomended p {
+    text-align: justify;
+}
+.recomended .recomendedkanan {
+    width: 435px;
+    float: left;
+    margin: 5px 10px 5px 5px;
+}
+.recomended a {
+    text-decoration: none;
+    color: white;
+}
+.recomended a:hover {
+    color: red;
+}
+form {
+    padding: 10px;
+    width: 880px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.submit a {
+    text-decoration: none;
+    color: black;
+}
+
+.account {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 5px;
+}
+.account h2 {
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.sosmed {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 5px;
+}
+.sosmed h4 {
+    padding: 5px;
+    color: white;
+    margin: 5px 0 10px;
+}
+.sosmed img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+marquee {
+    width: 880px;
+    height: 20px;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 5px;
+    color: blue;
+}
